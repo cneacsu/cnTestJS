@@ -8,3 +8,34 @@ git add .
 git commit -m “added new feature”
 3. Push your work to Github
 git push
+
+SPFx: optional development environment
+---------
+npm install -g npm
+npm install -g source-map-explorer nodetree http-server nodemon typescript
+npm list -g --dept=0
+nvm list
+nvm ls-remote --lts
+nvm install v4.7.2
+nvm install v6.9.4
+nvm use v4
+---------
+nvm list available
+nvm install 6.9.4
+nvm use 6.9.4
+node -v
+npm outdated -g
+npm install -g yo
+npm install -g @microsoft/generator-sharepoint
+yo @microsoft/sharepoint
+//yo @microsoft/sharepoint --skip-install
+npm install
+//DefinitelyTyped.org
+npm install --save-dev @types/jquery
+npm install -g gulp
+gulp --tasks
+---------
+npm install --global nsp
+nsp check
+npm init --yes
+npm install
