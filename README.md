@@ -8,7 +8,8 @@ git add .
 git commit -m “added new feature”
 3. Push your work to Github
 git push
-
+0. Verify list of changes
+git status
 SPFx: optional development environment
 ---------
 npm install -g npm
